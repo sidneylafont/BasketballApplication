@@ -14,12 +14,15 @@ def main():
     letters = list(string.ascii_lowercase)
 
     players = {}
+    index = 0
 
     for l in letters:
         letterPage = urllib.urlopen(urlWithPlayer + l + "/")
         letterSoup = BeautifulSoup(letterPage.read(), 'html.parser')
         tbodyLetterSoup = letterSoup.find("tbody")
         for p in tbodyLetterSoup.findAll("strong"):
+            index = index + 1
+            print(index)  # about 780 total
             player = {}
             playerPage = urllib.urlopen(url + p.find("a").get("href").strip())
             playerSoup = BeautifulSoup(playerPage.read(), 'html.parser')
