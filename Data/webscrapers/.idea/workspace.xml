@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e36e2850-5354-401c-b8eb-440725ad26f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advancdedStatsScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/advancdedStatsScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/per100PossScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/per100PossScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/per36Scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/per36Scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perGameScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/perGameScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playByPlayScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playByPlayScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shootingScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/shootingScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/totalsScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/totalsScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayoffPerGameScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlayoffPerGameScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playoff100PossScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playoff100PossScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playoffAdvancedScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playoffAdvancedScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playoffPer36Scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playoffPer36Scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playoffPlayByPlayScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playoffPlayByPlayScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playoffShootingScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playoffShootingScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playoffTotalScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playoffTotalScraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,49 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Python.salaryScraper">
-    <configuration name="advancdedStatsScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="webscrapers" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advancdedStatsScraper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="per100PossScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="webscrapers" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/per100PossScraper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.playoffPlayByPlayScraper">
     <configuration name="perGameScraper" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="webscrapers" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +59,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="playByPlayScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playoffAdvancedScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="webscrapers" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +71,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playByPlayScraper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playoffAdvancedScraper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="salaryScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playoffPer36Scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="webscrapers" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/salaryScraper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playoffPer36Scraper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shootingScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playoffPlayByPlayScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="webscrapers" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,7 +113,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shootingScraper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playoffPlayByPlayScraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playoffShootingScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="webscrapers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playoffShootingScraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playoffTotalScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="webscrapers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playoffTotalScraper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.salaryScraper" />
-        <item itemvalue="Python.playByPlayScraper" />
-        <item itemvalue="Python.shootingScraper" />
-        <item itemvalue="Python.advancdedStatsScraper" />
-        <item itemvalue="Python.per100PossScraper" />
+        <item itemvalue="Python.playoffPlayByPlayScraper" />
+        <item itemvalue="Python.playoffShootingScraper" />
+        <item itemvalue="Python.playoffTotalScraper" />
+        <item itemvalue="Python.playoffPer36Scraper" />
+        <item itemvalue="Python.playoffAdvancedScraper" />
       </list>
     </recent_temporary>
   </component>
@@ -193,30 +192,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587230000070" />
-    <state width="1419" height="303" key="GridCell.Tab.0.bottom" timestamp="1587247302784">
+    <state width="1419" height="130" key="GridCell.Tab.0.bottom" timestamp="1588015724683">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587247302784" />
+    <state width="1419" height="130" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588015724683" />
     <state width="1419" height="93" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587236735301" />
-    <state width="1419" height="303" key="GridCell.Tab.0.center" timestamp="1587247302783">
+    <state width="1419" height="130" key="GridCell.Tab.0.center" timestamp="1588015724681">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587247302783" />
+    <state width="1419" height="130" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588015724681" />
     <state width="1419" height="93" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587236735299" />
-    <state width="1419" height="303" key="GridCell.Tab.0.left" timestamp="1587247302782">
+    <state width="1419" height="130" key="GridCell.Tab.0.left" timestamp="1588015724680">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587247302782" />
+    <state width="1419" height="130" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588015724680" />
     <state width="1419" height="93" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587236735298" />
-    <state width="1419" height="303" key="GridCell.Tab.0.right" timestamp="1587247302783">
+    <state width="1419" height="130" key="GridCell.Tab.0.right" timestamp="1588015724682">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587247302783" />
+    <state width="1419" height="130" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588015724682" />
     <state width="1419" height="93" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587236735300" />
-    <state x="399" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1587235108364">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1588001774267">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587229506003" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588001774267" />
     <state x="399" y="298" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1587235108364" />
     <state x="312" y="49" width="816" height="825" key="find.popup" timestamp="1587235357548">
       <screen x="0" y="23" width="1440" height="877" />
