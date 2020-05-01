@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e36e2850-5354-401c-b8eb-440725ad26f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dataLoading/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataLoading/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataLoading/BBSQLitedb.db" beforeDir="false" afterPath="$PROJECT_DIR$/../dataLoading/BBSQLitedb.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataLoading/dataLoadingSQLite.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dataLoading/dataLoadingSQLite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvs/advanced_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csvs/advanced_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvs/play_by_play.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csvs/play_by_play.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvs/shooting.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csvs/shooting.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playByPlayScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playByPlayScraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Python.playoffTotalScraper">
+  <component name="RunManager" selected="Python.playByPlayScraper">
     <configuration name="perGameScraper" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="webscrapers" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="playoffPer36Scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playByPlayScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="webscrapers" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +74,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playoffPer36Scraper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playByPlayScraper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.playByPlayScraper" />
         <item itemvalue="Python.playoffTotalScraper" />
         <item itemvalue="Python.shootingScraper" />
         <item itemvalue="Python.playoffPlayByPlayScraper" />
         <item itemvalue="Python.playoffShootingScraper" />
-        <item itemvalue="Python.playoffPer36Scraper" />
       </list>
     </recent_temporary>
   </component>
@@ -187,25 +195,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587230000070" />
-    <state width="1419" height="130" key="GridCell.Tab.0.bottom" timestamp="1588276079206">
+    <state width="1419" height="130" key="GridCell.Tab.0.bottom" timestamp="1588355225314">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="130" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588276079206" />
+    <state width="1419" height="130" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588355225314" />
     <state width="1419" height="93" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587236735301" />
-    <state width="1419" height="130" key="GridCell.Tab.0.center" timestamp="1588276079204">
+    <state width="1419" height="130" key="GridCell.Tab.0.center" timestamp="1588355225313">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="130" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588276079204" />
+    <state width="1419" height="130" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588355225313" />
     <state width="1419" height="93" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587236735299" />
-    <state width="1419" height="130" key="GridCell.Tab.0.left" timestamp="1588276079203">
+    <state width="1419" height="130" key="GridCell.Tab.0.left" timestamp="1588355225312">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="130" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588276079203" />
+    <state width="1419" height="130" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588355225312" />
     <state width="1419" height="93" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587236735298" />
-    <state width="1419" height="130" key="GridCell.Tab.0.right" timestamp="1588276079205">
+    <state width="1419" height="130" key="GridCell.Tab.0.right" timestamp="1588355225314">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="130" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588276079205" />
+    <state width="1419" height="130" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588355225314" />
     <state width="1419" height="93" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587236735300" />
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1588001774267">
       <screen x="0" y="0" width="1440" height="900" />

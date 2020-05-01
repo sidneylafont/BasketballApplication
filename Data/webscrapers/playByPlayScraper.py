@@ -45,7 +45,7 @@ def main():
             for r in rows.findAll("tr"):
                 try:
                     yearStats = {}
-                    year = r.get("id")[9:]
+                    year = r.get("id")[4:]
                     yearStats["year"] = year
                     for cell in r.findAll("td"):
                         yearStats[cell.get("data-stat")] = cell.text
